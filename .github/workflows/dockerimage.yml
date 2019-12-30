@@ -15,5 +15,3 @@ jobs:
         name: zurlys/sonarscanner:latest
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-#    - name: Push the Docker image
-#      run: docker push zurlys/sonarscanner:latest  
